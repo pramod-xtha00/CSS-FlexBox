@@ -11,17 +11,23 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #cd2727;
     /* Green background */
     color: #fff;
 }
 
 /* Logo styling */
-.logo a {
+.logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+/* .logo a {
     color: #fff;
     text-decoration: none;
     font-size: 24px;
-}
+} */
 
 /* Navigation links styling */
 .nav-links {
@@ -45,7 +51,7 @@
 .nav-links a.active {
     color: #e0e0e0;
     /* Lighter color for active/hover */
-    background-color: #1c7430;
+    background-color: #990707;
     /* Darker green background on hover */
     border-radius: 4px;
     /* Optional: rounded corners */
@@ -74,7 +80,7 @@
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #28a745;
+        background-color: #cd2727;
         /* Green background for mobile view */
     }
 
